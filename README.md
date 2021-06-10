@@ -1,8 +1,9 @@
-# Plugin Countdown
+# Api Countdown
 <img src="./github/apresentacao.gif"></img>
 
 # Informaçoes:
 - Conatagem regressiva ate a data inserida pelo usuario.
+- validaçao de diferentes modelos de datas usando Regular Expression
 - Salva os valores da data no LocalStorage.
 - Api que recebe os valores criada 100% com Class, em um modulo separado.
 <hr>

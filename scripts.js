@@ -28,7 +28,9 @@ function hendalCountdown(event){
 }
 // clear the values
 function transformDates(data){
-    const dataArray = data.replaceAll('/' , ',').split(',')
+    const regespClear = /\D/g
+    const regespSelect = /(\d{2})(\d{2})(\d{4})/g
+    const dataArray = data.replace(regespClear , '').replace(regespSelect ,'$1,$2,$3').split(',')
     const dayValue = dataArray[0]
     const month = monthArray[dataArray[1] - 1]
     const year = dataArray[2]
