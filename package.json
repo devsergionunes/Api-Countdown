@@ -4,8 +4,8 @@
   "description": "<img src=\"./github/apresentacao.gif\"></img>",
   "main": "index.html",
   "scripts": {
-    "build": "webpack --mode production ./js/scripts.js -o ./main.js",
-    "dev": "webpack --mode development --watch ./js/scripts.js -o ./main.js"
+    "build": "webpack --mode production ./js/scripts.js -o ./",
+    "dev": "webpack --mode development --watch ./js/scripts.js -o ./"
   },
   "repository": {
     "type": "git",
