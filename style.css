@@ -98,3 +98,49 @@ body {
     position: absolute;
     transition: none;
 }
+@media (max-width:500px){
+    .form{
+        max-width: 355px;
+        height: auto;
+    }
+    .title{
+        font-size: 1.7rem;
+    }
+    #date {
+        width: 180px;
+        font-size: 1.5rem;
+        border-bottom: 2px solid #ccc;
+        margin-top: 1.8rem;
+    }
+    .time-area{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .time-area span{
+        display:none;
+    }
+    .time-area .area{
+        width: 150px;
+        height: auto;
+    }
+    .time-area .area div {
+        font-size: 4rem;
+    }
+    .time-area .area span {
+        display: block;
+        font-size: 2rem;
+    }
+    .btn-play , .btn-reset { 
+        font-size: 1rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 5px 20px;
+        border-radius: 5px;
+        margin-top: 1rem;
+    }
+    .btn-reset{
+        bottom:-50px;
+        margin-left: 0px;
+    } 
+}

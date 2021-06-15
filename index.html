@@ -1,41 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Countdown</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countdown</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="form">
-        <div class="title">Countdown</div>
-        <input type="text" name="date" id="date" placeholder="DD/MM/YYYY" maxlength="10">
-        <span>invalid date</span>
-        <button class="btn-play">Play</button>
+  <div class="form">
+    <div class="title">Countdown</div>
+    <input type="text" name="date" id="date" placeholder="DD/MM/YYYY" maxlength="10">
+    <span>invalid date</span>
+    <button class="btn-play">Play</button>
+  </div>
+  <div class="time-area">
+    <div class="area">
+      <div data-time="day"></div>
+      <span>day</span>
     </div>
-    <div class="time-area">
-        <div class="area">
-            <div data-time="day"></div>
-            <span>day</span>
-        </div>
-        <span>:</span>
-        <div class="area">
-            <div data-time="hours"></div>
-            <span>hours</span>
-        </div>
-        <span>:</span>
-        <div class="area">
-            <div data-time="minutes"></div>
-            <span>minutes</span>
-        </div>
-        <span>:</span>
-        <div class="area">
-            <div data-time="seconds"></div>
-            <span>seconds</span>
-        </div>
-        <button class="btn-reset">Reset</button>
+    <span>:</span>
+    <div class="area">
+      <div data-time="hours"></div>
+      <span>hours</span>
     </div>
-    <script type="module" src="scripts.js"></script>
+    <span>:</span>
+    <div class="area">
+      <div data-time="minutes"></div>
+      <span>minutes</span>
+    </div>
+    <span>:</span>
+    <div class="area">
+      <div data-time="seconds"></div>
+      <span>seconds</span>
+    </div>
+    <button class="btn-reset">Reset</button>
+  </div>
+  <script src="./main.js/main.js"></script>
 </body>
+
 </html>

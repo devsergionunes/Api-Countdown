@@ -16,6 +16,8 @@
  -  Html5
  -  Css3
  -  JavaScript
+ -  ESLint
+ -  Webpack
 <hr>
 
 ## Style:
@@ -24,6 +26,10 @@
     colors: #ca3b3a, #ccc , #222 e #555 .
     font-Family: monospace;
 </pre>
+<hr>
+
+## Link para Teste:
+-   https://devsergionunes.github.io/Api-Countdown/
 
 ## OBSERVAÇAO:
 <pre>
